@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Planner App</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-top">
+        <div class="container">
+          <a href="tel:+01123456790" class="helpline-box">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <div class="wrapper">
+              <p class="helpline-title">For Further Inquires :</p>
+
+              <p class="helpline-number">+01 (123) 4567 89</p>
+            </div>
+          </a>
+
+          <h1 class="website-title">Travel Planner App</h1>
+
+          <div class="header-btn-group">
+            <button class="search-btn" aria-label="Search">
+              <ion-icon name="search"></ion-icon>
+            </button>
+
+            <button
+              class="nav-open-btn"
+              aria-label="Open Menu"
+              data-nav-open-btn
+            >
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <div class="container">
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <nav class="navbar" data-navbar>
+            <div class="navbar-top">
+              <a href="#" class="logo">
+                <img src="./logo-blue.svg" alt="Tourly logo" />
+              </a>
+
+              <button
+                class="nav-close-btn"
+                aria-label="Close Menu"
+                data-nav-close-btn
+              >
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="navbar-list">
+              <li>
+                <a href="#home" class="navbar-link" data-nav-link>home</a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-link" data-nav-link>about us</a>
+              </li>
+
+              <li>
+                <a href="#package" class="navbar-link" data-nav-link
+                  >packages</a
+                >
+              </li>
+
+              <li>
+                <a href="#contact" class="navbar-link" data-nav-link
+                  >contact us</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <button class="btn btn-primary">Book Now</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero" id="home">
+          <div class="container">
+            <h2 class="h1 hero-title">Journey to explore world</h2>
+
+            <p class="hero-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Asperiores, voluptatibus ducimus, corrupti quibusdam at quae
+              perferendis fugit sit labore quia optio? Nulla voluptas nostrum
+              architecto est neque! Perspiciatis, error architecto?
+            </p>
+
+            <div class="btn-group">
+              <button class="btn btn-secondary">Book now</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #PACKAGE
+      -->
+
+        <section class="package" id="package">
+          <div class="container">
+            <p class="section-subtitle">Popular Packages</p>
+
+            <h2 class="h2 section-title">Checkout Our Packages</h2>
+
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis sequi debitis ab molestiae tempore sit quo commodi
+              aliquid harum dolorum temporibus, non eveniet quaerat animi
+              perspiciatis deleniti, voluptatem reiciendis. Quis.
+            </p>
+
+            <ul class="package-list">
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./packege-2.jpg"
+                      alt="Summer Holiday To The Oxolotan River"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">
+                      Summer Holiday To The Oxolotan River
+                    </h3>
+
+                    <p class="card-text">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Quibusdam ea ratione iusto voluptas quos minus alias unde
+                      suscipit nostrum, nesciunt laborum rem similique aut
+                      possimus. Perferendis in amet mollitia? Odit.
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+
+                          <p class="text">13:00</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+
+                          <p class="text">People: 10</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+
+                          <p class="text">Malaysia</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+
+                    <p class="price">
+                      $520
+                      <span>/ per person</span>
+                    </p>
+
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./packege-3.jpg"
+                      alt="Santorini Island's Weekend Vacation"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">
+                      Santorini Island's Weekend Vacation
+                    </h3>
+
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Molestiae blanditiis ratione cum illo! Qui obcaecati est
+                      maiores odit veniam magni perspiciatis molestias. Incidunt
+                      debitis est possimus distinctio expedita molestiae
+                      aliquam.
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+
+                          <p class="text">23:00</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+
+                          <p class="text">People: 10</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+
+                          <p class="text">Thiland</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(40 reviews)</p>
+
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+
+                    <p class="price">
+                      $660
+                      <span>/ per person</span>
+                    </p>
+
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <button class="btn btn-primary">View All Packages</button>
+          </div>
+        </section>
+
+        <!-- 
+        - #CTA
+      -->
+
+        <section class="cta" id="contact">
+          <div class="container">
+            <div class="cta-content">
+              <p class="section-subtitle">Call To Action</p>
+
+              <h2 class="h2 section-title">
+                Ready For Unforgatable Travel. Remember Us!
+              </h2>
+
+              <p class="section-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
+                non culpa itaque rerum ipsum quam rem, dolorem ipsam iure vel
+                eligendi ducimus architecto officiis iusto doloribus id
+                provident perferendis? Magni?
+              </p>
+            </div>
+
+            <button class="btn btn-secondary">Contact Us !</button>
+          </div>
+        </section>
+
+        <!-- 
+        - #Book Now
+      -->
+
+        <section class="booking" id="booking">
+          <h2 class="h2 section-title">Book Now</h2>
+          <form action="booking_form.php" method="post" class="book-form">
+            <div class="flex">
+              <div class="inputBox">
+                <span>Name:</span>
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="inputBox">
+                <span>Email:</span>
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="inputBox">
+                <span>Phone:</span>
+                <input
+                  type="number"
+                  placeholder="Enter your number"
+                  name="phone"
+                  required
+                />
+              </div>
+              <div class="inputBox">
+                <span>Address:</span>
+                <input
+                  type="text"
+                  placeholder="Enter your address"
+                  name="address"
+                  required
+                />
+              </div>
+              <div class="inputBox">
+                <span>Where to:</span>
+                <input
+                  type="text"
+                  placeholder="Place you want to visit"
+                  name="location"
+                  required
+                />
+              </div>
+              <div class="inputBox">
+                <span>How many guests:</span>
+                <input
+                  type="number"
+                  placeholder="Enter number of guests"
+                  name="guests"
+                  required
+                />
+              </div>
+              <div class="inputBox">
+                <span>Arrival Date:</span>
+                <input type="date" name="arrival" required />
+              </div>
+              <div class="inputBox">
+                <span>Leaving Date:</span>
+                <input type="date" name="leaving" required />
+              </div>
+            </div>
+            <button class="btn btn-primary" name="send">Contact Us !</button>
+          </form>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <h1 class="website-title">Travel Planner App</h1>
+
+            <p class="footer-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              quia repudiandae atque iste repellat porro fugiat aspernatur
+              incidunt ratione animi, impedit cupiditate laborum sequi
+              recusandae, ut at? Et, delectus consequatur?FF
+            </p>
+          </div>
+
+          <div class="footer-contact">
+            <h4 class="contact-title">Contact Us</h4>
+
+            <p class="contact-text">Feel free to reach us !!</p>
+
+            <ul>
+              <li class="contact-item">
+                <ion-icon name="call-outline"></ion-icon>
+
+                <a href="tel:+01123456790" class="contact-link"
+                  >+01 (123) 4567 89</a
+                >
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <a href="mailto:info.tourly.com" class="contact-link"
+                  >info@example.com</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-form">
+            <p class="form-text">Subscribe us !!</p>
+
+            <form action="" class="form-wrapper">
+              <input
+                type="email"
+                name="email"
+                class="input-field"
+                placeholder="Enter Your Email"
+                required
+              />
+
+              <button type="submit" class="btn btn-secondary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; Copyright 2022 <a href=""></a>. All rights reserved
+          </p>
+
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="#" class="footer-bottom-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link">Term & Condition</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #GO TO TOP
+  -->
+
+    <a href="#top" class="go-top" data-go-top>
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
